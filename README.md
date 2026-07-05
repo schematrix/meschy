@@ -1,6 +1,3 @@
-![Uploading IMG_2326.JPG…]()
-
-
 
 # Meschy
 
