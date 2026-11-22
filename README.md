@@ -107,14 +107,16 @@ Please note:
 
 ## Repository Structure
 
+The manufacturing and reference files are in the repository root.
+
 ```
-Hardware/
+./
 ├── 3D_PCB.step
 ├── PCB_PICS.pdf
 ├── MESCHY_BOM.xlsx
-├── MESCHY_PICK_AND_PLACE.xlsx
+├── ULAK_PICK_AND_PLACE.xlsx
 ├── MESCHY_SCH.pdf
-└── meschy_gerber.zip
+└── MESCHY_gerber.zip
 ```
 
 ---
@@ -124,7 +126,7 @@ Hardware/
 This repository includes everything required to manufacture and assemble the board.
 
 ### Gerber Files
-`meschy_gerber.zip`
+[`MESCHY_gerber.zip`](./MESCHY_gerber.zip)
 
 Contains the complete PCB manufacturing package, including:
 
@@ -143,27 +145,27 @@ Compatible with virtually all PCB manufacturers, including:
 * Any Gerber-compatible fabrication service
 
 ### Bill of Materials (BOM)
-`MESCHY_BOM.xlsx`
+[`MESCHY_BOM.xlsx`](./MESCHY_BOM.xlsx)
 
 Complete component list required to assemble the board.
 
 ### Pick & Place
-`MESCHY_PICK_AND_PLACE.xlsx`
+[`ULAK_PICK_AND_PLACE.xlsx`](./ULAK_PICK_AND_PLACE.xlsx)
 
 Automated SMT assembly coordinates.
 
 ### Schematic
-`MESCHY_SCH.pdf`
+[`MESCHY_SCH.pdf`](./MESCHY_SCH.pdf)
 
 Complete circuit schematic for reference and development.
 
 ### 3D Model
-`3D_PCB.step`
+[`3D_PCB.step`](./3D_PCB.step)
 
 STEP model for enclosure design and mechanical integration.
 
 ### PCB Images
-`PCB_PICS.pdf`
+[`PCB_PICS.pdf`](./PCB_PICS.pdf)
 
 Reference photographs of the manufactured PCB.
 
