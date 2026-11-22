@@ -21,6 +21,21 @@ Whether you're building an off-grid messaging device, an IoT sensor network, or 
 
 ---
 
+## I²C connectors
+
+H1 and U7 have different pin orders. This table follows `ulak_gerber/FlyingProbeTesting.json` in the [manufacturing files](./MESCHY_gerber.zip).
+
+| Pin | H1 | U7 (OLED) |
+| --- | --- | --- |
+| 1 | SDA | GND |
+| 2 | SCL | VCC |
+| 3 | VCC | SDA |
+| 4 | GND | SCL |
+
+The clock net is named `SDL`. The [schematic](./MESCHY_SCH.pdf) shows H1 pin 1 on `SDL` and pin 2 on `SDA`. The U7 symbol also has the SDA and SCL text swapped on pins 3 and 4. Check the [PCB pad markings](./PCB_PICS.pdf) and the pin order on your module before connecting it.
+
+---
+
 ## Getting Started: Installing Meshtastic Firmware
 
 Once you have an assembled Meschy board in hand, here's how to get it running on the Meshtastic network.
